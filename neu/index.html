@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rajista Clone</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="/lolo.png" alt="Instagram Logo" />
+        <span>Rajista</span>
+      </div>
+      <div class="header-icons">
+        <img src="/gontologo.png" alt="Konto Logo" />
+        <img src="/nachlogo.png" alt="Nachrichten Logo" />
+      </div>
+    </header>
+
+    <section class="stories">
+      <div class="story">
+        <img src="/frau.jpg" alt="Story 1" />
+        <span class="story-name">Karin Sidres</span>
+      </div>
+      <div class="story">
+        <img src="/mann.jpg" alt="Story 2" />
+        <span class="story-name">Ahmed Ali</span>
+      </div>
+      <div class="story">
+        <img src="/frau2.jpg" alt="Story 3" />
+        <span class="story-name">Habiba Mohammed</span>
+      </div>
+      <div class="story">
+        <img src="/3.jpg" alt="Story 4" />
+        <span class="story-name">ich bin nicht da</span>
+      </div>
+    </section>
+
+    <section class="posts">
+      <div class="post" data-id="post1">
+        <div class="post-header">
+          <img class="profile-img" src="/frau.jpg" alt="Profile Bild" />
+          <span class="post-author">Karin Sidres</span>
+        </div>
+        <div class="post-img-container">
+          <img class="post-img" src="/1.jpg" alt="Post Image" />
+          <img class="heart-icon" src="/heart.png" alt="Heart Icon" />
+        </div>
+        <div class="actions">
+          <button class="like-btn">❤️ Like</button>
+          <span class="likes-count">15 Likes</span>
+        </div>
+        <div class="comments">
+          <input type="text" placeholder="Add a comment..." />
+          <button class="comment-btn">Post</button>
+        </div>
+        <ul class="comments-list">
+          <li>Toller Beitrag!</li>
+          <li>Das sieht super aus!</li>
+        </ul>
+      </div>
+      <div class="post" data-id="post2">
+        <div class="post-header">
+          <img class="profile-img" src="/frau2.jpg" alt="Profile Bild" />
+          <span class="post-author">Habiba Mohammed</span>
+        </div>
+        <div class="post-img-container">
+          <img class="post-img" src="/4.jpg" alt="Post Image" />
+          <img class="heart-icon" src="/heart.png" alt="Heart Icon" />
+        </div>
+        <div class="actions">
+          <button class="like-btn">❤️ Like</button>
+          <span class="likes-count">8 Likes</span>
+        </div>
+        <div class="comments">
+          <input type="text" placeholder="Add a comment..." />
+          <button class="comment-btn">Post</button>
+        </div>
+        <ul class="comments-list">
+          <li>Wow, großartig!</li>
+          <li>Ich liebe das.</li>
+        </ul>
+      </div>
+      <div class="post" data-id="post3">
+        <div class="post-header">
+          <img class="profile-img" src="/mann.jpg" alt="Profile Bild" />
+          <span class="post-author">Ahmed Ali</span>
+        </div>
+        <div class="post-img-container">
+          <img class="post-img" src="/3.jpg" alt="Post Image" />
+          <img class="heart-icon" src="/heart.png" alt="Heart Icon" />
+        </div>
+        <div class="actions">
+          <button class="like-btn">❤️ Like</button>
+          <span class="likes-count">22 Likes</span>
+        </div>
+        <div class="comments">
+          <input type="text" placeholder="Add a comment..." />
+          <button class="comment-btn">Post</button>
+        </div>
+        <ul class="comments-list">
+          <li>Fantastisch!</li>
+          <li>Sehr schön gemacht.</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        <a href="#">Impressum</a> | <a href="#">Info</a> |
+        <a href="#">Meta</a> | <a href="#">Facebook</a>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
